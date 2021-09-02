@@ -1,0 +1,40 @@
+Command/Code			|	Job
+0/git init			= For creat a new repository.
+1/git add[stage files]		= When we want to move our work/task/file from (Work Directory) to (Staging Area) then we can use this command or code.
+2/git commit			= When we move some task/file/code from Staging Area to Local Repository then we can use this command for memorize which code/thig we have moved.
+				  This command means like a littel message or title.
+3/git push			= When we want to send our final task/file from Local Repository/our computer to Remote Repository/Server computer then we can implement this command.
+4/git fetch			= If we want to download or take data/file from Remote Repository/Server Computer to Local Repository then we can use this command.
+5/git clone/git pull		= If we want to download or take data/file from Remote Repository/Server Computer to directly My Work Directory in my Computer then we can use this command.
+6/git diff			= If we want to see the differance between Work Directory and Staging Area then we can apply this command.
+7/git diff HEAD			= If we want to see the differance between Work Directory and Local Repository then we can write this command.
+8/git merge			= When we like to marge the document of Work Directory and Local Repository after that we can set this command.
+9/git checkout			= Like some one has sent some data form Work Directory to Local Repository but suddenly he/she thought that now it is not necessary so he/she want reback the data to Work Directory.
+				  So this kind of cases we shoud use this command.
+10/git config --global user.name "write here name" = This command use for creat a global User Name.
+11/git config --global user.email "write here email" = This command use for set a email for global.
+12/git config user.name "write here name" = For set local user name.
+13/git config user.email "Write here Email" = For set local Email Address.
+14/git config --list = This command use for check which email address and user name and password has alredy set.
+15/git status = To use this command we can see tha changes in our file.
+16/git add --all/git add . = If we want to stage all of the files in our folder then we can use this command.
+17/git log = When we commit some thing and after commit if we want to see our all changes then we can use this command.
+18/git log --oneline = The sortes form of git log to the log.
+19/git show [commit id number] = If you want to see spacific file data and changes then you can use this command with the file commit id number.
+20/git diff [first commit id] [scound commit id] = Through this command we can check the differance between two commit.
+21/git diff --staged = after add if we want see the difference then we can use this command.
+22/git rm <file name with extaintion> = If we like to remove file from folder we can use this command.
+23/git reset HEAD <File name with extaintion> = This command means delet the file from git.
+24/git restore --staged <file name with extaintion> = If we want to restore the file again then we can use this command.
+25/git push -u origin master 	= By using this command we can send our file/data in remote repository/server as master brance.
+26/git branch <name of branch>	= If we want creat any sub branch then we can use this command.
+27/git checkout <name of branch>= If we want to work in another branch instad of master branch the we can implement this command.
+28/git checkout -b <name of branch>	= When we use this command we derectle switch to our created branch.
+29/git branch -d <branch name>		= If we want to delet any branch then we can use this command.
+30/git stash 				= If we want to move our data temporarly to another location then we can use this command.
+31/git stash pop/git stash apply	= If we want to see the data which was we have moved in another location for temporarly then we can use this command.
+32/git stash list			= It's show us stash list that how many stash we have done.
+33/git clean -f -n			= This command show what happend if we apply it.
+34/git clean -f				= If we like to delet/remove the unstage file then we can use this command.
+35/touch .<file name>			= If we want to creat file through git then we can use this command.
+36/touch .gitignore 			= If we want to do some thing like unchanged in my file then we can use this command and in this file we just put the file with this way (*.<file extaintion>).
