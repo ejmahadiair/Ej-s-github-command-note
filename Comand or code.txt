@@ -38,3 +38,4 @@ Command/Code			|	Job
 34/git clean -f				= If we like to delet/remove the unstage file then we can use this command.
 35/touch .<file name>			= If we want to creat file through git then we can use this command.
 36/touch .gitignore 			= If we want to do some thing like unchanged in my file then we can use this command and in this file we just put the file with this way (*.<file extaintion>).
+37/git branch -M <branch name>		= If I want to change the name or switch from the master branch to another branch then we can name it.
